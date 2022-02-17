@@ -1,0 +1,109 @@
+*{margin: 0; padding: 0; 
+    *box-sizing: border-box; text-align: center; 
+    *font-family: 'Gugi', cursive;}
+    main{
+        max-height: 100%;
+     max-width: 100%; margin: 5px 5px 5px  ; 
+      /* border:1px solid black; */
+       display: grid; color: black;
+        grid-template-rows: 60px 250px 350px ;
+         grid-template-columns: 3fr 3fr 3fr 300px;
+       background: #E5E5E5;
+          grid-gap: 10px;
+    }
+    
+     .div1{background-color:white;
+        color: black;
+       grid-column: 1/-1;
+        }
+         .div2{ background-color: white;
+           
+
+
+         }
+          .div3{ background-color:white;
+           
+        }
+
+
+           .div4{ background-color:  white; 
+            
+        }
+            .div5{ background-color: blueviolet; 
+                color: black;
+              grid-row:2/4; grid-column: 4/5;
+              overflow-x: hidden;
+              overflow-y: auto;
+               }
+                .div6{ background-color: white;
+                    color: black;
+                  grid-column: 1/ 4;
+                   }
+                    .div7{ background-color: #00d2d3;
+                      grid-column: 1/-1;
+                        }
+                      .div1 .icon
+                      {
+                          text-align:  right  ;
+                      }
+.div1 .logo
+{
+    text-align: left;
+}
+.div2{
+   /* border-radius:12% ; */
+  color: black;
+   text-overflow: none;
+
+}
+.header{
+    background: #F6F5FF;
+  
+}
+.div3{
+    /* border-radius:15% ; */
+    color: black;
+    text-overflow: none;
+}
+
+/* .div2:hover{
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+}
+.div3:hover{
+    z-index: -1;
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+  
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+}
+.div4:hover{
+    background-image: linear-gradient(to left, #FF83D5, #FFCCB0);
+   
+    box-shadow: 20px 5px 10px rgba(0,0,0,0.1);
+
+} */
+.h3{
+    padding: 10px solid red;
+}
+.info{
+    padding: 10px;
+}
+.sub-heading{
+    padding: 2px;
+}
+.icon{
+  position: flex-end;
+}
+.content{
+text-align: left;
+}
+.subject{
+    padding: 0.5rem 0.5rem 0.5rem 0rem;
+}
+a:link{
+    text-decoration: none;
+    color: white;
+
+}
